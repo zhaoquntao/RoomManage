@@ -5,7 +5,7 @@
 ##上部是日期显示 (以当前日期为开始往后 60天)
 ##左侧是 房间号 ,
 ##可以上下,左右滑动,方便管理农家乐的预定情况.
-##用到的控件: UIScrollView 和 CollectionView
+##主要控件: UIScrollView 和 CollectionView
 ## 主要代码
 ###QTSelectCollectionView
      @protocol QTSelectCollectionViewDelegate <NSObject>
