@@ -1,6 +1,6 @@
 //
 //  QTManageViewController.m
-//  RoomManageDemo
+//  RoomManage
 //
 //  Created by 赵群涛 on 16/8/17.
 //  Copyright © 2016年 ZQT. All rights reserved.
@@ -309,9 +309,17 @@ NSString *currentDay = nil;
             accountingId = [dict[@"accountingId"] intValue];
         }
     }
-//    NSUInteger indexRoom = [self.selectCollectionViewArr indexOfObject:collectionView];
+//    NSUInteger indexRoom =  [self.selectCollectionViewArr indexOfObject:collectionView];
     
+    UIAlertController *alertController = [UIAlertController alertControllerWithTitle:@"提示" message:@"弹出界面自己处理吧" preferredStyle:UIAlertControllerStyleAlert];
+    UIAlertAction *cancelAction = [UIAlertAction actionWithTitle:@"取消" style:UIAlertActionStyleCancel handler:nil];
+    UIAlertAction *okAction = [UIAlertAction actionWithTitle:@"确定" style:UIAlertActionStyleDefault handler:^(UIAlertAction * _Nonnull action) {
+    }];
     
+    [alertController addAction:cancelAction];
+    [alertController addAction:okAction];
+    
+    [self presentViewController:alertController animated:YES completion:nil];
     
 }
 

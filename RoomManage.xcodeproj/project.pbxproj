@@ -15,6 +15,18 @@
 		57C58B4D1D66F0ED00EC62DC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57C58B4B1D66F0ED00EC62DC /* LaunchScreen.storyboard */; };
 		57C58B581D66F0ED00EC62DC /* RoomManageTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 57C58B571D66F0ED00EC62DC /* RoomManageTests.m */; };
 		57C58B631D66F0ED00EC62DC /* RoomManageUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 57C58B621D66F0ED00EC62DC /* RoomManageUITests.m */; };
+		57C58BC81D66F1F700EC62DC /* QTManageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 57C58BB31D66F1F700EC62DC /* QTManageViewController.m */; };
+		57C58BC91D66F1F700EC62DC /* QTDate.m in Sources */ = {isa = PBXBuildFile; fileRef = 57C58BB61D66F1F700EC62DC /* QTDate.m */; };
+		57C58BCA1D66F1F700EC62DC /* QTRoom.m in Sources */ = {isa = PBXBuildFile; fileRef = 57C58BB81D66F1F700EC62DC /* QTRoom.m */; };
+		57C58BCB1D66F1F700EC62DC /* RoomList.plist in Resources */ = {isa = PBXBuildFile; fileRef = 57C58BB91D66F1F700EC62DC /* RoomList.plist */; };
+		57C58BCC1D66F1F700EC62DC /* QTDateTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 57C58BBC1D66F1F700EC62DC /* QTDateTool.m */; };
+		57C58BCD1D66F1F700EC62DC /* UILabel+QTCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 57C58BBE1D66F1F700EC62DC /* UILabel+QTCategory.m */; };
+		57C58BCE1D66F1F700EC62DC /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 57C58BC01D66F1F700EC62DC /* UIView+Extension.m */; };
+		57C58BCF1D66F1F700EC62DC /* LeftRoomNumberTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 57C58BC31D66F1F700EC62DC /* LeftRoomNumberTableView.m */; };
+		57C58BD01D66F1F700EC62DC /* QTDateCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 57C58BC51D66F1F700EC62DC /* QTDateCollectionView.m */; };
+		57C58BD11D66F1F700EC62DC /* QTSelectCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 57C58BC71D66F1F700EC62DC /* QTSelectCollectionView.m */; };
+		57C58BD51D66F41C00EC62DC /* Simulator Screen Shot 2016年8月19日 14.21.57.png in Resources */ = {isa = PBXBuildFile; fileRef = 57C58BD31D66F41C00EC62DC /* Simulator Screen Shot 2016年8月19日 14.21.57.png */; };
+		57C58BD61D66F41C00EC62DC /* Untitled.gif in Resources */ = {isa = PBXBuildFile; fileRef = 57C58BD41D66F41C00EC62DC /* Untitled.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +63,28 @@
 		57C58B5E1D66F0ED00EC62DC /* RoomManageUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RoomManageUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		57C58B621D66F0ED00EC62DC /* RoomManageUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RoomManageUITests.m; sourceTree = "<group>"; };
 		57C58B641D66F0ED00EC62DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		57C58BAF1D66F1B100EC62DC /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		57C58BB21D66F1F700EC62DC /* QTManageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QTManageViewController.h; sourceTree = "<group>"; };
+		57C58BB31D66F1F700EC62DC /* QTManageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QTManageViewController.m; sourceTree = "<group>"; };
+		57C58BB51D66F1F700EC62DC /* QTDate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QTDate.h; sourceTree = "<group>"; };
+		57C58BB61D66F1F700EC62DC /* QTDate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QTDate.m; sourceTree = "<group>"; };
+		57C58BB71D66F1F700EC62DC /* QTRoom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QTRoom.h; sourceTree = "<group>"; };
+		57C58BB81D66F1F700EC62DC /* QTRoom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QTRoom.m; sourceTree = "<group>"; };
+		57C58BB91D66F1F700EC62DC /* RoomList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = RoomList.plist; sourceTree = "<group>"; };
+		57C58BBB1D66F1F700EC62DC /* QTDateTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QTDateTool.h; sourceTree = "<group>"; };
+		57C58BBC1D66F1F700EC62DC /* QTDateTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QTDateTool.m; sourceTree = "<group>"; };
+		57C58BBD1D66F1F700EC62DC /* UILabel+QTCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+QTCategory.h"; sourceTree = "<group>"; };
+		57C58BBE1D66F1F700EC62DC /* UILabel+QTCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+QTCategory.m"; sourceTree = "<group>"; };
+		57C58BBF1D66F1F700EC62DC /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		57C58BC01D66F1F700EC62DC /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
+		57C58BC21D66F1F700EC62DC /* LeftRoomNumberTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeftRoomNumberTableView.h; sourceTree = "<group>"; };
+		57C58BC31D66F1F700EC62DC /* LeftRoomNumberTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeftRoomNumberTableView.m; sourceTree = "<group>"; };
+		57C58BC41D66F1F700EC62DC /* QTDateCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QTDateCollectionView.h; sourceTree = "<group>"; };
+		57C58BC51D66F1F700EC62DC /* QTDateCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QTDateCollectionView.m; sourceTree = "<group>"; };
+		57C58BC61D66F1F700EC62DC /* QTSelectCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QTSelectCollectionView.h; sourceTree = "<group>"; };
+		57C58BC71D66F1F700EC62DC /* QTSelectCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QTSelectCollectionView.m; sourceTree = "<group>"; };
+		57C58BD31D66F41C00EC62DC /* Simulator Screen Shot 2016年8月19日 14.21.57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Simulator Screen Shot 2016年8月19日 14.21.57.png"; sourceTree = "<group>"; };
+		57C58BD41D66F41C00EC62DC /* Untitled.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Untitled.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +115,7 @@
 		57C58B311D66F0ED00EC62DC = {
 			isa = PBXGroup;
 			children = (
+				57C58BD21D66F41C00EC62DC /* Screenshots */,
 				57C58B3C1D66F0ED00EC62DC /* RoomManage */,
 				57C58B561D66F0ED00EC62DC /* RoomManageTests */,
 				57C58B611D66F0ED00EC62DC /* RoomManageUITests */,
@@ -105,6 +140,8 @@
 				57C58B411D66F0ED00EC62DC /* AppDelegate.m */,
 				57C58B431D66F0ED00EC62DC /* ViewController.h */,
 				57C58B441D66F0ED00EC62DC /* ViewController.m */,
+				57C58BAF1D66F1B100EC62DC /* PrefixHeader.pch */,
+				57C58BB01D66F1F700EC62DC /* ManageRoom */,
 				57C58B461D66F0ED00EC62DC /* Main.storyboard */,
 				57C58B491D66F0ED00EC62DC /* Assets.xcassets */,
 				57C58B4B1D66F0ED00EC62DC /* LaunchScreen.storyboard */,
@@ -138,6 +175,74 @@
 				57C58B641D66F0ED00EC62DC /* Info.plist */,
 			);
 			path = RoomManageUITests;
+			sourceTree = "<group>";
+		};
+		57C58BB01D66F1F700EC62DC /* ManageRoom */ = {
+			isa = PBXGroup;
+			children = (
+				57C58BB11D66F1F700EC62DC /* Controller */,
+				57C58BB41D66F1F700EC62DC /* Model */,
+				57C58BBA1D66F1F700EC62DC /* Tool */,
+				57C58BC11D66F1F700EC62DC /* View */,
+			);
+			path = ManageRoom;
+			sourceTree = "<group>";
+		};
+		57C58BB11D66F1F700EC62DC /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				57C58BB21D66F1F700EC62DC /* QTManageViewController.h */,
+				57C58BB31D66F1F700EC62DC /* QTManageViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		57C58BB41D66F1F700EC62DC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				57C58BB51D66F1F700EC62DC /* QTDate.h */,
+				57C58BB61D66F1F700EC62DC /* QTDate.m */,
+				57C58BB71D66F1F700EC62DC /* QTRoom.h */,
+				57C58BB81D66F1F700EC62DC /* QTRoom.m */,
+				57C58BB91D66F1F700EC62DC /* RoomList.plist */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		57C58BBA1D66F1F700EC62DC /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				57C58BBB1D66F1F700EC62DC /* QTDateTool.h */,
+				57C58BBC1D66F1F700EC62DC /* QTDateTool.m */,
+				57C58BBD1D66F1F700EC62DC /* UILabel+QTCategory.h */,
+				57C58BBE1D66F1F700EC62DC /* UILabel+QTCategory.m */,
+				57C58BBF1D66F1F700EC62DC /* UIView+Extension.h */,
+				57C58BC01D66F1F700EC62DC /* UIView+Extension.m */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		57C58BC11D66F1F700EC62DC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				57C58BC21D66F1F700EC62DC /* LeftRoomNumberTableView.h */,
+				57C58BC31D66F1F700EC62DC /* LeftRoomNumberTableView.m */,
+				57C58BC41D66F1F700EC62DC /* QTDateCollectionView.h */,
+				57C58BC51D66F1F700EC62DC /* QTDateCollectionView.m */,
+				57C58BC61D66F1F700EC62DC /* QTSelectCollectionView.h */,
+				57C58BC71D66F1F700EC62DC /* QTSelectCollectionView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		57C58BD21D66F41C00EC62DC /* Screenshots */ = {
+			isa = PBXGroup;
+			children = (
+				57C58BD31D66F41C00EC62DC /* Simulator Screen Shot 2016年8月19日 14.21.57.png */,
+				57C58BD41D66F41C00EC62DC /* Untitled.gif */,
+			);
+			name = Screenshots;
+			path = RoomManage/Screenshots;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -244,6 +349,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				57C58B4D1D66F0ED00EC62DC /* LaunchScreen.storyboard in Resources */,
+				57C58BD61D66F41C00EC62DC /* Untitled.gif in Resources */,
+				57C58BCB1D66F1F700EC62DC /* RoomList.plist in Resources */,
+				57C58BD51D66F41C00EC62DC /* Simulator Screen Shot 2016年8月19日 14.21.57.png in Resources */,
 				57C58B4A1D66F0ED00EC62DC /* Assets.xcassets in Resources */,
 				57C58B481D66F0ED00EC62DC /* Main.storyboard in Resources */,
 			);
@@ -270,9 +378,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				57C58BCE1D66F1F700EC62DC /* UIView+Extension.m in Sources */,
+				57C58BC91D66F1F700EC62DC /* QTDate.m in Sources */,
+				57C58BCF1D66F1F700EC62DC /* LeftRoomNumberTableView.m in Sources */,
+				57C58BCA1D66F1F700EC62DC /* QTRoom.m in Sources */,
+				57C58BC81D66F1F700EC62DC /* QTManageViewController.m in Sources */,
+				57C58BCD1D66F1F700EC62DC /* UILabel+QTCategory.m in Sources */,
+				57C58BCC1D66F1F700EC62DC /* QTDateTool.m in Sources */,
 				57C58B451D66F0ED00EC62DC /* ViewController.m in Sources */,
 				57C58B421D66F0ED00EC62DC /* AppDelegate.m in Sources */,
+				57C58BD01D66F1F700EC62DC /* QTDateCollectionView.m in Sources */,
 				57C58B3F1D66F0ED00EC62DC /* main.m in Sources */,
+				57C58BD11D66F1F700EC62DC /* QTSelectCollectionView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -415,6 +532,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/RoomManage/PrefixHeader.pch";
 				INFOPLIST_FILE = RoomManage/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ZQT.RoomManage;
@@ -426,6 +544,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/RoomManage/PrefixHeader.pch";
 				INFOPLIST_FILE = RoomManage/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ZQT.RoomManage;
@@ -498,6 +617,7 @@
 				57C58B691D66F0ED00EC62DC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		57C58B6A1D66F0ED00EC62DC /* Build configuration list for PBXNativeTarget "RoomManageTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +626,7 @@
 				57C58B6C1D66F0ED00EC62DC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		57C58B6D1D66F0ED00EC62DC /* Build configuration list for PBXNativeTarget "RoomManageUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +635,7 @@
 				57C58B6F1D66F0ED00EC62DC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
