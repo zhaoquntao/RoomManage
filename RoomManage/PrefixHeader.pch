@@ -1,0 +1,38 @@
+//
+//  PrefixHeader.pch
+//  RoomManageDemo
+//
+//  Created by 赵群涛 on 16/8/17.
+//  Copyright © 2016年 ZQT. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+#import "UILabel+QTCategory.h"
+#import "UIView+Extension.h"
+
+//RGB的颜色转换
+#define kUIColorFromRGB(rgbValue) [UIColor \
+colorWithRed:((float)((rgbValue & 0xFF0000) >> 16))/255.0 \
+green:((float)((rgbValue & 0xFF00) >> 8))/255.0 \
+blue:((float)(rgbValue & 0xFF))/255.0 alpha:1.0]
+
+//屏幕的宽/高宏
+#define WIDTH ([UIScreen  mainScreen].bounds.size.width)
+#define HEIGHT ([UIScreen mainScreen].bounds.size.height)
+
+
+// 判断是否iPhone4
+#define iPhone4 ([UIScreen mainScreen].bounds.size.height == 480)
+// 判断是否iPhone5
+#define iPhone5 ([UIScreen mainScreen].bounds.size.height == 568)
+
+// 判断是否iPhone6
+#define iPhone6 ([UIScreen mainScreen].bounds.size.height == 667)
+
+// 判断是否iPhone6plus
+#define iPhone6plus ([UIScreen mainScreen].bounds.size.height == 736)
+
+
+
+#endif /* PrefixHeader_pch */
