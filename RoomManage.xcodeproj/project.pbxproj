@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		57C58B3F1D66F0ED00EC62DC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 57C58B3E1D66F0ED00EC62DC /* main.m */; };
+		57C58B421D66F0ED00EC62DC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 57C58B411D66F0ED00EC62DC /* AppDelegate.m */; };
+		57C58B451D66F0ED00EC62DC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 57C58B441D66F0ED00EC62DC /* ViewController.m */; };
+		57C58B481D66F0ED00EC62DC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57C58B461D66F0ED00EC62DC /* Main.storyboard */; };
+		57C58B4A1D66F0ED00EC62DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57C58B491D66F0ED00EC62DC /* Assets.xcassets */; };
+		57C58B4D1D66F0ED00EC62DC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57C58B4B1D66F0ED00EC62DC /* LaunchScreen.storyboard */; };
+		57C58B581D66F0ED00EC62DC /* RoomManageTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 57C58B571D66F0ED00EC62DC /* RoomManageTests.m */; };
+		57C58B631D66F0ED00EC62DC /* RoomManageUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 57C58B621D66F0ED00EC62DC /* RoomManageUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		57C58B541D66F0ED00EC62DC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 57C58B321D66F0ED00EC62DC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 57C58B391D66F0ED00EC62DC;
+			remoteInfo = RoomManage;
+		};
+		57C58B5F1D66F0ED00EC62DC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 57C58B321D66F0ED00EC62DC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 57C58B391D66F0ED00EC62DC;
+			remoteInfo = RoomManage;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		57C58B3A1D66F0ED00EC62DC /* RoomManage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RoomManage.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		57C58B3E1D66F0ED00EC62DC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		57C58B401D66F0ED00EC62DC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		57C58B411D66F0ED00EC62DC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		57C58B431D66F0ED00EC62DC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		57C58B441D66F0ED00EC62DC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		57C58B471D66F0ED00EC62DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		57C58B491D66F0ED00EC62DC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		57C58B4C1D66F0ED00EC62DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		57C58B4E1D66F0ED00EC62DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		57C58B531D66F0ED00EC62DC /* RoomManageTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RoomManageTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		57C58B571D66F0ED00EC62DC /* RoomManageTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RoomManageTests.m; sourceTree = "<group>"; };
+		57C58B591D66F0ED00EC62DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		57C58B5E1D66F0ED00EC62DC /* RoomManageUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RoomManageUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		57C58B621D66F0ED00EC62DC /* RoomManageUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RoomManageUITests.m; sourceTree = "<group>"; };
+		57C58B641D66F0ED00EC62DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		57C58B371D66F0ED00EC62DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57C58B501D66F0ED00EC62DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57C58B5B1D66F0ED00EC62DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		57C58B311D66F0ED00EC62DC = {
+			isa = PBXGroup;
+			children = (
+				57C58B3C1D66F0ED00EC62DC /* RoomManage */,
+				57C58B561D66F0ED00EC62DC /* RoomManageTests */,
+				57C58B611D66F0ED00EC62DC /* RoomManageUITests */,
+				57C58B3B1D66F0ED00EC62DC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		57C58B3B1D66F0ED00EC62DC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				57C58B3A1D66F0ED00EC62DC /* RoomManage.app */,
+				57C58B531D66F0ED00EC62DC /* RoomManageTests.xctest */,
+				57C58B5E1D66F0ED00EC62DC /* RoomManageUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		57C58B3C1D66F0ED00EC62DC /* RoomManage */ = {
+			isa = PBXGroup;
+			children = (
+				57C58B401D66F0ED00EC62DC /* AppDelegate.h */,
+				57C58B411D66F0ED00EC62DC /* AppDelegate.m */,
+				57C58B431D66F0ED00EC62DC /* ViewController.h */,
+				57C58B441D66F0ED00EC62DC /* ViewController.m */,
+				57C58B461D66F0ED00EC62DC /* Main.storyboard */,
+				57C58B491D66F0ED00EC62DC /* Assets.xcassets */,
+				57C58B4B1D66F0ED00EC62DC /* LaunchScreen.storyboard */,
+				57C58B4E1D66F0ED00EC62DC /* Info.plist */,
+				57C58B3D1D66F0ED00EC62DC /* Supporting Files */,
+			);
+			path = RoomManage;
+			sourceTree = "<group>";
+		};
+		57C58B3D1D66F0ED00EC62DC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				57C58B3E1D66F0ED00EC62DC /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		57C58B561D66F0ED00EC62DC /* RoomManageTests */ = {
+			isa = PBXGroup;
+			children = (
+				57C58B571D66F0ED00EC62DC /* RoomManageTests.m */,
+				57C58B591D66F0ED00EC62DC /* Info.plist */,
+			);
+			path = RoomManageTests;
+			sourceTree = "<group>";
+		};
+		57C58B611D66F0ED00EC62DC /* RoomManageUITests */ = {
+			isa = PBXGroup;
+			children = (
+				57C58B621D66F0ED00EC62DC /* RoomManageUITests.m */,
+				57C58B641D66F0ED00EC62DC /* Info.plist */,
+			);
+			path = RoomManageUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		57C58B391D66F0ED00EC62DC /* RoomManage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 57C58B671D66F0ED00EC62DC /* Build configuration list for PBXNativeTarget "RoomManage" */;
+			buildPhases = (
+				57C58B361D66F0ED00EC62DC /* Sources */,
+				57C58B371D66F0ED00EC62DC /* Frameworks */,
+				57C58B381D66F0ED00EC62DC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RoomManage;
+			productName = RoomManage;
+			productReference = 57C58B3A1D66F0ED00EC62DC /* RoomManage.app */;
+			productType = "com.apple.product-type.application";
+		};
+		57C58B521D66F0ED00EC62DC /* RoomManageTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 57C58B6A1D66F0ED00EC62DC /* Build configuration list for PBXNativeTarget "RoomManageTests" */;
+			buildPhases = (
+				57C58B4F1D66F0ED00EC62DC /* Sources */,
+				57C58B501D66F0ED00EC62DC /* Frameworks */,
+				57C58B511D66F0ED00EC62DC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				57C58B551D66F0ED00EC62DC /* PBXTargetDependency */,
+			);
+			name = RoomManageTests;
+			productName = RoomManageTests;
+			productReference = 57C58B531D66F0ED00EC62DC /* RoomManageTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		57C58B5D1D66F0ED00EC62DC /* RoomManageUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 57C58B6D1D66F0ED00EC62DC /* Build configuration list for PBXNativeTarget "RoomManageUITests" */;
+			buildPhases = (
+				57C58B5A1D66F0ED00EC62DC /* Sources */,
+				57C58B5B1D66F0ED00EC62DC /* Frameworks */,
+				57C58B5C1D66F0ED00EC62DC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				57C58B601D66F0ED00EC62DC /* PBXTargetDependency */,
+			);
+			name = RoomManageUITests;
+			productName = RoomManageUITests;
+			productReference = 57C58B5E1D66F0ED00EC62DC /* RoomManageUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		57C58B321D66F0ED00EC62DC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = ZQT;
+				TargetAttributes = {
+					57C58B391D66F0ED00EC62DC = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					57C58B521D66F0ED00EC62DC = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 57C58B391D66F0ED00EC62DC;
+					};
+					57C58B5D1D66F0ED00EC62DC = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 57C58B391D66F0ED00EC62DC;
+					};
+				};
+			};
+			buildConfigurationList = 57C58B351D66F0ED00EC62DC /* Build configuration list for PBXProject "RoomManage" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 57C58B311D66F0ED00EC62DC;
+			productRefGroup = 57C58B3B1D66F0ED00EC62DC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				57C58B391D66F0ED00EC62DC /* RoomManage */,
+				57C58B521D66F0ED00EC62DC /* RoomManageTests */,
+				57C58B5D1D66F0ED00EC62DC /* RoomManageUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		57C58B381D66F0ED00EC62DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57C58B4D1D66F0ED00EC62DC /* LaunchScreen.storyboard in Resources */,
+				57C58B4A1D66F0ED00EC62DC /* Assets.xcassets in Resources */,
+				57C58B481D66F0ED00EC62DC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57C58B511D66F0ED00EC62DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57C58B5C1D66F0ED00EC62DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		57C58B361D66F0ED00EC62DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57C58B451D66F0ED00EC62DC /* ViewController.m in Sources */,
+				57C58B421D66F0ED00EC62DC /* AppDelegate.m in Sources */,
+				57C58B3F1D66F0ED00EC62DC /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57C58B4F1D66F0ED00EC62DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57C58B581D66F0ED00EC62DC /* RoomManageTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57C58B5A1D66F0ED00EC62DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57C58B631D66F0ED00EC62DC /* RoomManageUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		57C58B551D66F0ED00EC62DC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 57C58B391D66F0ED00EC62DC /* RoomManage */;
+			targetProxy = 57C58B541D66F0ED00EC62DC /* PBXContainerItemProxy */;
+		};
+		57C58B601D66F0ED00EC62DC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 57C58B391D66F0ED00EC62DC /* RoomManage */;
+			targetProxy = 57C58B5F1D66F0ED00EC62DC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		57C58B461D66F0ED00EC62DC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				57C58B471D66F0ED00EC62DC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		57C58B4B1D66F0ED00EC62DC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				57C58B4C1D66F0ED00EC62DC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		57C58B651D66F0ED00EC62DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		57C58B661D66F0ED00EC62DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		57C58B681D66F0ED00EC62DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RoomManage/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ZQT.RoomManage;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		57C58B691D66F0ED00EC62DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RoomManage/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ZQT.RoomManage;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		57C58B6B1D66F0ED00EC62DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RoomManageTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ZQT.RoomManageTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RoomManage.app/RoomManage";
+			};
+			name = Debug;
+		};
+		57C58B6C1D66F0ED00EC62DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RoomManageTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ZQT.RoomManageTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RoomManage.app/RoomManage";
+			};
+			name = Release;
+		};
+		57C58B6E1D66F0ED00EC62DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = RoomManageUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ZQT.RoomManageUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = RoomManage;
+			};
+			name = Debug;
+		};
+		57C58B6F1D66F0ED00EC62DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = RoomManageUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ZQT.RoomManageUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = RoomManage;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		57C58B351D66F0ED00EC62DC /* Build configuration list for PBXProject "RoomManage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57C58B651D66F0ED00EC62DC /* Debug */,
+				57C58B661D66F0ED00EC62DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		57C58B671D66F0ED00EC62DC /* Build configuration list for PBXNativeTarget "RoomManage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57C58B681D66F0ED00EC62DC /* Debug */,
+				57C58B691D66F0ED00EC62DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		57C58B6A1D66F0ED00EC62DC /* Build configuration list for PBXNativeTarget "RoomManageTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57C58B6B1D66F0ED00EC62DC /* Debug */,
+				57C58B6C1D66F0ED00EC62DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		57C58B6D1D66F0ED00EC62DC /* Build configuration list for PBXNativeTarget "RoomManageUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57C58B6E1D66F0ED00EC62DC /* Debug */,
+				57C58B6F1D66F0ED00EC62DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 57C58B321D66F0ED00EC62DC /* Project object */;
+}
