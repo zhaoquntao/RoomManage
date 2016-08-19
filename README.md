@@ -1,7 +1,6 @@
 # RoomManage
 #RoomManage(农家乐房间管理)
-## 预览
-      ![image](https://github.com/zhaoquntao/RoomManage/RoomManage/Screenshots/Untitled.gif)
+
 #农家乐房间管理 ,方便农家乐主人管理自己的房间.
 ##上部是日期显示 (以当前日期为开始往后 60天)
 ##左侧是 房间号 ,
