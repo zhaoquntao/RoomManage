@@ -7,7 +7,7 @@
 ##可以上下,左右滑动,方便管理农家乐的预定情况.
 ##主要控件: UIScrollView 和 CollectionView
 ## 主要代码
-###QTSelectCollectionView
+#### QTSelectCollectionView
      @protocol QTSelectCollectionViewDelegate <NSObject>
      @optional
      @protocol QTSelectCollectionViewDelegate <NSObject>
