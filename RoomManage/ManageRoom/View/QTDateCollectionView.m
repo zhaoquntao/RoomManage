@@ -26,7 +26,7 @@ static NSString * const dateCellreuseIdentifier = @"DateCell";
 #pragma mark - 构造函数
 - (instancetype)init
 {
-    self.backgroundColor = [UIColor whiteColor];
+    
     if (self = [super initWithFrame:CGRectZero collectionViewLayout:self.layout]) {
         // 设置数据源
         self.dataSource = self;
@@ -34,7 +34,7 @@ static NSString * const dateCellreuseIdentifier = @"DateCell";
         self.delegate = self;
         // 注册cell
         [self registerClass:[QTDateCollectionViewCell class] forCellWithReuseIdentifier:dateCellreuseIdentifier];
-        
+        self.backgroundColor = [UIColor whiteColor];
     }
     return self;
 }
