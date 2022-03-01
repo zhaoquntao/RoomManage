@@ -24,13 +24,13 @@ static NSString *const dateCellreuseIdentifier = @"SelectCell";
 @implementation QTSelectCollectionView
 
 - (instancetype)init {
-    self.backgroundColor = [UIColor whiteColor];
+    
     if (self = [super initWithFrame:CGRectZero collectionViewLayout:self.layout]) {
         self.dataSource = self;
         self.delegate = self;
         
         [self registerClass:[QTSelectCollectionViewCell class] forCellWithReuseIdentifier:dateCellreuseIdentifier];
-        
+        self.backgroundColor = [UIColor whiteColor];
     }
     return self;
     
